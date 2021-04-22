@@ -1,0 +1,1 @@
+Healthcheck url: http://arch.homework/otusapp/morinv/health
