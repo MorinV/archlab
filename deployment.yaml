@@ -23,3 +23,9 @@ spec:
             ports:
               - name: web 
                 containerPort: 80
+            readinessProbe:
+              httpGet:
+                port: 80
+                path: /health
+              initialDelaySeconds: 10
+              periodSeconds: 5
